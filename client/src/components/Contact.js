@@ -39,7 +39,7 @@ const Contact = () => {
       `Message: ${formData.message}`
     );
 
-    const mailtoLink = `mailto:chaitya.dobariya@spit.ac.in?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:caghelp2024@gmail.com?subject=${subject}&body=${body}`;
 
     window.location.href = mailtoLink;
 
@@ -60,7 +60,7 @@ const Contact = () => {
         <div className='getInTouch'>
           <p className='getInTouchText'>Get In Touch..</p>
           <p className='contact_details'>
-            Email to: <br />cagsupport2024@gmail.com
+            Email to: <br />caghelp2024@gmail.com
           </p>
         </div>
 

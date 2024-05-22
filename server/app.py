@@ -26,7 +26,9 @@ def predict_college():
         return jsonify({"error": f"Missing one or more required keys: {categories}"}), 400
     
     # Validate "Percentile" value
-    percentile = input_data["Percentile"]
+    percentile = float(input_data["Percentile"])
+    print(percentile, type(percentile))
+
     if not isinstance(percentile, (float, int)) or not 0 <= percentile <= 100:
         return jsonify({"error": "Percentile value must be a float between 0 and 100"}), 400
     

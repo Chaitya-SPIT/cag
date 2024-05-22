@@ -336,7 +336,7 @@ export default collegeMapping;
 // const collegeName = collegeMapping[collegeId];
 // console.log(collegeName); // Output: Veermata Jijabai Īechnological Institute(VJĪI), Matunga, Mumbai
 
-const collegeID = 3215;
-const collegeKeys = Object.keys(collegeMapping);
-const index = collegeKeys.indexOf(collegeID.toString()); // Convert collegeID to string for comparison
-console.log("Index of collegeID 3215:", index);
+// const collegeID = 3215;
+// const collegeKeys = Object.keys(collegeMapping);
+// const index = collegeKeys.indexOf(collegeID.toString()); // Convert collegeID to string for comparison
+// console.log("Index of collegeID 3215:", index);
