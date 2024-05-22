@@ -12,6 +12,7 @@ import PtoC from './components/PtoC'
 import ResultPage from './components/ResultPage';
 // import Counselling from './components/Counselling';
 import Diary from "./components/Diary";
+import NotFound from "./components/NotFound";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/prediction/college" element={<PtoC/>}/>
         <Route path="/result" element={<ResultPage/>}/>
         <Route path="/diary" element={<Diary />} />
+        <Route path="/*" element={<NotFound />} />
         
       </Routes>
     </Router>
