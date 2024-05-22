@@ -21,7 +21,6 @@
 //   flex-wrap: wrap;
 //   justify-content: center;
 //   background-color: blue;
-  
 
 //   .card {
 //     position: relative;
@@ -41,7 +40,7 @@
 //         font-weight: bold;
 //         color: #333;
 //       }
-      
+
 //       .college-name {
 //         margin-top: 10px;
 //         font-size: 18px;
@@ -62,15 +61,13 @@
 //       opacity: 0;
 //       pointer-events: none;
 //     }
-    
-    
+
 //   }
 //   .card:hover .city {
 //     opacity: 1;
 //   }
-  
-// }
 
+// }
 
 //---------------------------------------------------
 
@@ -79,7 +76,7 @@
 .diary_bg {
   background-image: url("../Images/bg_diary4.jpg");
   background-size: cover; /* This ensures the background image covers the entire div */
-  background-position:0px -150px;
+  background-position: 0px -150px;
   width: 100%; /* Makes the div cover the entire width of the screen */
   height: 100%; /* Makes the div cover the entire height of the screen */
   position: fixed;
@@ -87,21 +84,21 @@
   opacity: 0.5;
 }
 
-.diary_body{
+.diary_body {
   font-family: "Poppins", sans-serif;
   height: 20vh;
 }
 
-.diary_subtitle{
+.diary_subtitle {
   width: 100%;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 30px;
   font-weight: 600;
-  
 }
 
 .search-input {
+  font-family: "Poppins", sans-serif;
   width: 49%;
   padding: 8px;
   border-radius: 5px;
@@ -113,6 +110,7 @@
 
 .city-dropdown {
   .city-select {
+    font-family: "Poppins", sans-serif;
     width: 50%;
     padding: 8px;
     border-radius: 5px;
@@ -127,16 +125,16 @@
   margin: 0 auto;
   display: flex;
 
-  .left-panel-container{
-    overflow-y: auto;
-    height: calc(100vh - 350px); 
-    width:50%;
-  }
-  
-  .right-panel-container{
+  .left-panel-container {
     overflow-y: auto;
     height: calc(100vh - 350px);
-    width:50%;
+    width: 50%;
+  }
+
+  .right-panel-container {
+    overflow-y: auto;
+    height: calc(100vh - 350px);
+    width: 50%;
   }
 
   .left-panel {
@@ -227,7 +225,8 @@
       margin-bottom: 10px;
       position: relative;
       width: 400px;
-      height: 50px;
+      height: auto;
+      padding: 4px;
       margin: 10px;
       border-radius: 10px;
       background-color: #f7f7f7;
@@ -238,7 +237,7 @@
       align-items: center;
       cursor: pointer;
     }
-    .selected-college:hover{
+    .selected-college:hover {
       background-color: #cfcfcf;
     }
 
@@ -275,21 +274,19 @@
   margin-left: 10px;
 }
 
-@media screen and (max-width: 768px){
-
-  .diary_body{
+@media screen and (max-width: 768px) {
+  .diary_body {
     height: 20vh;
   }
-  
-  .diary_subtitle{
+
+  .diary_subtitle {
     width: 100%;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 30px;
     font-weight: 600;
-    
   }
-  
+
   .search-input {
     width: 49%;
     padding: 8px;
@@ -299,9 +296,8 @@
     margin-left: 25%;
     margin-bottom: 5px;
   }
-  
-  .city-dropdown {
 
+  .city-dropdown {
     .city-select {
       font-family: "Poppins", sans-serif;
       width: 50%;
@@ -312,38 +308,35 @@
       margin-left: 25%;
     }
   }
-  
+
   .diary-container {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
 
-    .left-panel-container{
-      overflow-y: auto;
-      height: calc(100vh - 350px); 
-      width:50%;
-    }
-
-    .right-panel-container{
+    .left-panel-container {
       overflow-y: auto;
       height: calc(100vh - 350px);
-      width:50%;
+      width: 50%;
     }
-    
+
+    .right-panel-container {
+      overflow-y: auto;
+      height: calc(100vh - 350px);
+      width: 50%;
+    }
+
     .left-panel {
       flex-grow: 1;
       max-width: calc(50% - 10px); // Adjust width to fit within viewport
       margin-right: 10px; // Add margin between left and right panels
     }
-    
-  
+
     .right-panel {
       max-width: calc(50% - 10px); // Adjust width to fit within viewport
       margin-left: 10px; // Add margin between left and right panels
     }
-  
-    
-  
+
     .right-panel {
       // width: 200px;
       padding-left: 20px;
@@ -352,7 +345,7 @@
       flex-direction: column;
       align-items: flex-start;
       order: 2; // Ensure right panel comes second
-  
+
       .selected-college {
         display: flex;
         margin-bottom: 10px;
@@ -369,16 +362,16 @@
         align-items: center;
         cursor: pointer;
       }
-      .selected-college:hover{
+      .selected-college:hover {
         background-color: #cfcfcf;
       }
-  
+
       .error-message {
         color: red;
       }
     }
   }
-  
+
   .error-message {
     position: fixed;
     top: 50%;
@@ -390,7 +383,7 @@
     display: flex;
     align-items: center;
   }
-  
+
   .close-btn {
     background-color: #ff6666;
     color: white;
@@ -405,6 +398,4 @@
     cursor: pointer;
     margin-left: 10px;
   }
-
-
 }

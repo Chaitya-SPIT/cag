@@ -140,8 +140,8 @@ const MtoP = () => {
     if (!marks) {
       alert("Please enter marks");
       return;
-    } else if (marks <= 90 || marks > 200) {
-      alert("Marks should be between 90 and 200");
+    } else if (marks < 95 || marks > 200) {
+      alert("Marks should be between 95 and 200");
       return;
     } else if (isNaN(marks)) {
       alert("Marks should be a number");

@@ -13,7 +13,7 @@ const About = () => {
         <p className='AboutUs_para'>
           Our project utilizes machine learning algorithms to predict
           engineering college allocations based on the
-          <a href='https://fe2023.mahacet.org/StaticPages/HomePage'> Maharashtra Common Entrance Test (Mht-CET)</a> percentile obtained
+          <a href='https://fe2023.mahacet.org/StaticPages/HomePage' target="_blank" rel='noreferrer'> Maharashtra Common Entrance Test (Mht-CET)</a> percentile obtained
           by students. We aim to assist students in making
           informed decisions about their college choices by providing
           accurate predictions based on historical data.</p>
@@ -56,10 +56,10 @@ const About = () => {
       <div className='Team_Members'>
         <p className='AboutUs_text5'>Team Members</p>
         <p className='AboutUs_para5'>
-          <p>Sushant Divekar : sushant.divekar@spit.ac.in</p>
-          <p>Tejas Dhurgude : tejas.dhurgude@spit.ac.in</p>
-          <p>Chaitya Dobariya : chaitya.dobariya@spit.ac.in</p>
-          <p>Prashil Kadam : prashil.kadam@spit.ac.in</p>
+          <p>Prashil Kadam</p>
+          <p>Tejas Dhurgude</p>
+          <p>Sushant Divekar</p>
+          <p>Chaitya Dobariya</p>
         </p>
       </div>
 
