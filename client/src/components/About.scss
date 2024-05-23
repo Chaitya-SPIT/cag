@@ -54,8 +54,8 @@
     
     
     width:70%;
-    height : 300px;
-    padding: 0 2%;
+    height : auto;
+    padding: 2%;
     background-color: rgba(213, 232, 254, 1);
     border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);;
@@ -63,7 +63,6 @@
     text-align: center;
 
     .AboutUs_text{
-        padding-top: 2%;
         font-family: 'Poppins', sans-serif;
         font-weight:bolder;
         font-size: 42px;
@@ -86,8 +85,8 @@
     margin-top: 5%;
     margin-left: 15%;
     width:70%;
-    height : 300px;
-    padding: 0 2%;
+    height : auto;
+    padding: 2%;
     background-color: rgba(213, 232, 254, 1);
     border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);;
@@ -95,7 +94,6 @@
     text-align: center;
 
     .AboutUs_text2{
-        padding-top: 2%;
         font-family: 'Poppins', sans-serif;
         font-weight:bolder;
         font-size: 42px;
@@ -118,8 +116,8 @@
     margin-top: 5%;
     margin-left: 15%;
     width:70%;
-    height : 300px;
-    padding: 0 2%;
+    height : auto;
+    padding: 2%;
     background-color: rgba(213, 232, 254, 1);
     border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);;
@@ -127,7 +125,6 @@
     text-align: center;
 
     .AboutUs_text3{
-        padding-top: 2%;
         font-family: 'Poppins', sans-serif;
         font-weight:bolder;
         font-size: 42px;
@@ -150,8 +147,8 @@
     margin-top: 5%;
     margin-left: 15%;
     width:70%;
-    height : 300px;
-    padding: 0 2%;
+    height : auto;
+    padding: 2%;
     background-color: rgba(213, 232, 254, 1);
     border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);;
@@ -159,7 +156,6 @@
     text-align: center;
 
     .AboutUs_text4{
-        padding-top: 2%;
         font-family: 'Poppins', sans-serif;
         font-weight:bolder;
         font-size:42px;
@@ -183,8 +179,8 @@
     margin-left: 15%;
     margin-bottom: 20px;
     width:70%;
-    height : 300px;
-    padding: 0 2%;
+    height : auto;
+    padding: 2%;
     background-color: rgba(213, 232, 254, 1);
     border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
@@ -192,7 +188,6 @@
     text-align: center;
 
     .AboutUs_text5{
-        padding-top: 2%;
         font-family: 'Poppins', sans-serif;
         font-weight:bolder;
         font-size:42px;
@@ -210,6 +205,17 @@
         text-align: center;
     }
 }
+
+.icon {
+    font-size: 40px;
+    color: #4D869C;
+    margin-bottom: 10px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .icon:hover {
+    transform: rotate(360deg);
+  }
 
 @media screen and (max-width: 768px) {
 

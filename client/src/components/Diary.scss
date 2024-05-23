@@ -274,6 +274,24 @@
   margin-left: 10px;
 }
 
+.animated-element {
+  width: 100px;
+  height: 100px;
+  background-color: #7AB2B2;
+  margin: 20px auto;
+  border-radius: 50%;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+}
+
 @media screen and (max-width: 768px) {
   .diary_body {
     height: 20vh;
